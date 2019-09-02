@@ -1,0 +1,19 @@
+/* .animTarget {
+    display: none;
+} */
+
+.fade-leave-active {
+    transition: opacity 1s, transform 1s;
+    transform: translateX(100px);
+    opacity: 0;
+}
+
+.fade-enter{
+    opacity: 0;
+    transform: translateX(-100px);
+}
+
+.fade-enter-active {
+    transition: opacity 3s, transform 1s;
+    
+}
